@@ -87,10 +87,10 @@ Version: 1.0.0
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #C23127;
+  --theme-color: #0c264b;
   --theme-color2: #A2AEB6;
-  --title-color: #C23127;
-  --title-dark: #8A1A12;
+  --title-color: #0c264b;
+  --title-dark: #061326;
   --body-color: #6E7070;
   --smoke-color: #ffffff;
   --smoke-color2: #666666;
