@@ -34415,3 +34415,29 @@ span.select2-selection.select2-selection--single:focus {
 .bg-theme .service-card:hover .service-card-icon img {
     filter: brightness(0) invert(1) !important;
 }
+
+/* Sustainable Homes Grid */
+.sustainable-img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.sustainable-img-grid .img-large {
+    grid-row: span 2;
+}
+.sustainable-img-grid .img-large img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    min-height: 520px;
+}
+.sustainable-img-grid .img-small {
+    height: 250px;
+}
+.sustainable-img-grid .img-small img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
