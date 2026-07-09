@@ -23878,15 +23878,22 @@ span.select2-selection.select2-selection--single:focus {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  /* Small devices */
-  /* Extra small devices */
+  width: 100%;
 }
 
 .gallery-card a {
   border-radius: 32px;
   overflow: hidden;
-  display: inline-block;
+  display: block;
   position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.gallery-card a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .gallery-card a:after {
